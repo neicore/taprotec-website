@@ -1,0 +1,14 @@
+.sectionTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.sectionTitle::after{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 35%;
+    background-color: #FD7720;
+}

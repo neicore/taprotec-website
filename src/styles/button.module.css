@@ -1,0 +1,24 @@
+.solid{
+    color: #fff;
+    background-color: #FD7720;
+    padding: 10px 20px;
+    margin-right: 10px;
+    outline: none;
+    border: 2px solid #FD7720;
+}
+
+.solid:active{
+    transform: scale(.97);
+}
+
+.outline{
+    color: #0969C3;
+    border: 2px solid #FD7720;
+    padding: 10px 20px;
+    outline: none;
+    background-color: transparent;
+}
+
+.outline:active{
+    transform: scale(.97);
+}

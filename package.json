@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/karla": "^4.5.0",
     "gatsby": "^3.10.2",
     "gatsby-plugin-gatsby-cloud": "^2.10.1",
     "gatsby-plugin-image": "^1.10.1",
@@ -25,6 +26,11 @@
     "gatsby-transformer-sharp": "^3.10.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-feather": "^2.0.9",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0"
+  },
+  "devDependencies": {
+    "typescript-plugin-css-modules": "^3.4.0"
   }
 }
