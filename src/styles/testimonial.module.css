@@ -1,10 +1,36 @@
 .testimonial{
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .testimonialContent{
     display: flex;
     align-items: center;
-    margin: 0 20px;
+    gap:  20px;
+}
+
+.testimonialClientImage{
+    height: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    object-fit: cover;
+}
+
+.testimonialWords{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 380px;
+    min-height: 120px;
+}
+
+.testimonialWords > h3{
+    font-size: .9em;
+    font-style: italic;
+    font-weight: 800;
+    letter-spacing: .2px;
 }

@@ -1,5 +1,32 @@
 .projectCard{
-    width: 600px;
+    width: fit-content;
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    box-shadow:  0 0 50px rgba(0, 0, 0, 0.10);
+    padding: 20px;
+}
+
+.projectCard > img {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.projectInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+    text-align: justify;
+}
+
+.projectTitle{
+    font-size: 1.5em;
+}
+
+.projectStack{
+    display: flex;
+    gap: 10px;
 }

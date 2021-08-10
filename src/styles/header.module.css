@@ -1,15 +1,29 @@
-.header{
+.header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     height: 100vh;
-    background-color: #FFE4D2;
+    background-color: rgba(255, 228, 210, 0.5);
+    padding: 0 100px;
+    position: relative;
 }
 
-.headerContent{
+.headerContent {
     height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 25px;
+}
+
+.headerContent>h1 {
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.headerContent>p {
+    font-size: 1.5em;
+    text-align: center;
 }

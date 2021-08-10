@@ -1,5 +1,11 @@
 .testimonialCard{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 620px;
+    box-shadow:  0 0 50px rgba(0, 0, 0, 0.10);
+    padding: 30px 30px;
+    gap: 30px;
+    position: absolute;
+    bottom: -15%;
+    background-color: #fff;
 }

@@ -1,9 +1,9 @@
 import React from 'react'
 import { sectionTitle } from '../styles/sectionTitle.module.css'
 
-function SectionTitles(props: {title: string}) {
+function SectionTitles({title}) {
     return (
-        <h2 className={sectionTitle} >{props.title}</h2>
+        <h2 className={sectionTitle} >{title}</h2>
     )
 }
 
