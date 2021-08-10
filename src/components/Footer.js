@@ -1,15 +1,16 @@
 import React from 'react'
+import { footer, footerIcons, footerMenu, copyright } from '../styles/footer.module.css'
 
 function Footer() {
     return (
-        <footer>
-            <div>
+        <footer className={footer}>
+            <div className={footerIcons}>
                 <i>Icon</i>
                 <i>Icon</i>
                 <i>Icon</i>
             </div>
 
-            <ul>
+            <ul className={footerMenu}>
                 <li>Company</li>
                 <li>Home</li>
                 <li>Portfolio</li>
@@ -17,7 +18,7 @@ function Footer() {
                 <li>Contact Us</li>
             </ul>
 
-            <p>Copyright &copy; 2021 Taprotec</p>
+            <p className={copyright}>Copyright &copy; 2021 Taprotec</p>
         </footer>
     )
 }

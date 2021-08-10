@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import {navbar, navbarMenu, navbarMenuItemActive, navbarIcons} from '../styles/navbar.module.css'
+import { FaWhatsapp, FaInstagram, FaGithub } from 'react-icons/fa'
+import { navbar, navbarMenu, navbarMenuItemActive, navbarIcons } from '../styles/navbar.module.css'
+// import taprotecLogo from '../images/taprotec-logo.png'
 
 function Navbar() {
     return (
         <nav className={navbar} >
-            <img src="" alt="Taprotec Logo" />
+            {/* <img src={taprotecLogo} alt="Taprotec Logo" /> */}
 
             <ul className={navbarMenu}>
                 <li><a className={navbarMenuItemActive} href='#'>Home</a></li>
@@ -16,9 +18,9 @@ function Navbar() {
             </ul>
 
             <ul className={navbarIcons}>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><FaWhatsapp title='WhatsApp' size='30px' /></li>
+                <li><FaInstagram title='Instagram' size='30px' /></li>
+                <li><FaGithub title='Github' size='30px' /></li>
             </ul>
         </nav>
     )
