@@ -2,6 +2,25 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navbarLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: #FD7720;
+}
+
+.navbarLogo>p {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.navbarLogo>p>span {
+    color: #2A78C2;
 }
 
 .navbarMenu {
@@ -20,8 +39,11 @@
 }
 
 .navbarMenu>li>a {
+    font-size: 18px;
+    font-weight: 500;
     color: #2A78C2;
     text-decoration: none;
+    transition: color .4s ease-out;
 }
 
 .navbarMenu>li>a:hover {
@@ -29,8 +51,8 @@
 }
 
 .navbarMenuItemActive {
-    font-weight: 700;
-    border-bottom: 2px solid #FD7720;
+    font-weight: 700 !important;
+    border-bottom: 3px solid #FD7720;
 }
 
 .navbarIcons {
@@ -38,4 +60,28 @@
     align-items: center;
     justify-content: center;
     list-style: none;
+}
+
+.navbarIcons>li {
+    padding-right: 5px;
+}
+
+.navbarIcons>li:last-child {
+    padding-right: 0;
+}
+
+.navbarIcons>li>a{
+    color: #fff;
+    background-color: #2A78C2;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .4s ease-out;
+}
+
+.navbarIcons>li>a:hover{
+    background-color: #FD7720;
 }

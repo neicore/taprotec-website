@@ -1,11 +1,11 @@
 import React from 'react'
-import SectionTitles from '../components/SectionTitles'
+import SectionTitles from './SectionTitles'
 import ProjectCard from '../components/ProjectCard'
-import { projectCards } from '../styles/projects.module.css'
+import { projectCard, projectCards } from '../styles/projects.module.css'
 
 function Projects() {
     return (
-        <section>
+        <section className={projectCard}>
             <SectionTitles title='Works we have done' />
             <div className={projectCards}>
                 <ProjectCard />
@@ -13,7 +13,6 @@ function Projects() {
                 <ProjectCard />
                 <ProjectCard />
             </div>
-            <p className="readMoreProjects">Read More Projects <i>Icon</i></p>
         </section>
     )
 }

@@ -1,4 +1,11 @@
+.projectCard{
+    margin-top: 15%;
+    text-align: center;
+}
+
 .projectCards{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    gap: 100px;
 }

@@ -1,12 +1,13 @@
 import React from 'react'
 import { teamMember } from '../styles/teamMember.module.css'
+import coder from '../images/coder.jpg'
 
 function TeamMember() {
     return (
         <div className={teamMember}>
-            <img src="#" alt="John Doe" />
+            <img src={coder} alt="John Doe" />
             <h3>John Doe</h3>
-            <p><i>Fullstack Developer</i></p>
+            <p>Fullstack Developer</p>
         </div>
     )
 }

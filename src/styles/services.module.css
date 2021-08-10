@@ -1,0 +1,10 @@
+.services{
+    height: fit-content;
+    width: 100%;
+    background-color: rgba(255, 228, 210, 0.5);
+    padding: 100px 0;
+    position: relative;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}

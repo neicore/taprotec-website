@@ -2,13 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
     gap: 5px;
+    width: fit-content;
 }
 
 .sectionTitle::after{
     content: "";
     display: block;
     height: 4px;
-    width: 35%;
+    width: 50%;
     background-color: #FD7720;
 }

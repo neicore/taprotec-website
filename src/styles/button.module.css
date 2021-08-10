@@ -5,9 +5,27 @@
     margin-right: 10px;
     outline: none;
     border: 2px solid #FD7720;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 .solid:active{
+    transform: scale(.97);
+}
+
+.solidHeaderButton{
+    color: #fff;
+    background-color: #FD7720;
+    padding: 10px 20px;
+    margin-right: 10px;
+    outline: none;
+    border: 2px solid #FD7720;
+    font-size: 1.2em;
+    font-weight: 500;
+    transition: transform .1s ease-in-out;
+}
+
+.solidHeaderButton:active{
     transform: scale(.97);
 }
 
@@ -20,5 +38,57 @@
 }
 
 .outline:active{
+    transform: scale(.97);
+}
+
+.outlineHeaderButton{
+    color: #0969C3;
+    border: 2px solid #FD7720;
+    padding: 10px 20px;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: 500;
+    transition: transform .1s ease-in-out;
+}
+
+.outlineHeaderButton:active{
+    transform: scale(.97);
+}
+
+.stackButtonReact{
+    color: #fff;
+    background-color: #0969C3;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    font-size: .8em;
+    height: fit-content;
+}
+
+.stackButtonNode{
+    color: #fff;
+    background-color: #09C357;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    font-size: .8em;
+    height: fit-content;
+}
+
+.readMore{
+    color: #fff;
+    background-color: #FD7720;
+    padding: 7px 14px;
+    margin-right: 10px;
+    outline: none;
+    border: 2px solid #FD7720;
+    width: 128.844px;
+    justify-self: center;
+    font-size: 1em;
+    transition: transform .1s ease-in-out;
+}
+
+.readMore:active{
     transform: scale(.97);
 }

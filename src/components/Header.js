@@ -2,7 +2,7 @@ import React from 'react'
 import Button from './Button'
 import Navbar from './Navbar'
 import { header, headerContent } from '../styles/header.module.css'
-import { solid, outline } from '../styles/button.module.css'
+import { solidHeaderButton, outlineHeaderButton } from '../styles/button.module.css'
 
 function Header() {
     return (
@@ -21,8 +21,8 @@ function Header() {
                 </p>
 
                 <div>
-                    <Button name='See Our Works' style={solid}/>
-                    <Button name='Get In Touch' style={outline}/>
+                    <Button name='See Our Works' style={solidHeaderButton}/>
+                    <Button name='Get In Touch' style={outlineHeaderButton}/>
                 </div>
             </section>
         </header>
